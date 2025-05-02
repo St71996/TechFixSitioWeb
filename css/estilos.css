@@ -113,3 +113,40 @@ footer {
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
+
+/* Estilo para botones reutilizables */
+.btn {
+    background-color: #0a74da;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #094a99;
+}
+
+/* Mejora visual de testimonio */
+.testimonio {
+    background-color: #f0f8ff;
+    border-left: 4px solid #007BFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.testimonio img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
